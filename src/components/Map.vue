@@ -24,7 +24,6 @@
         },
         watch: {
             markerPosition: function(val) {
-                console.log(val, "watch prop!");
                 this.map.setView([val[0], val[1]], 15);
             }
         },
