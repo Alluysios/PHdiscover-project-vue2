@@ -69,6 +69,11 @@ export default {
     height: 100vh;
     overflow: hidden;
   }
+  @media only screen and (max-width: 700px) {
+        .home {
+          flex-direction: column;
+        }
+    }
   .destination {
     flex: 1 0 30%;
     background: rgb(255, 255, 255);

@@ -26,6 +26,11 @@
         height: 90vh;
         overflow-y: scroll;
     }
+    @media only screen and (max-width: 700px) {
+        #destination {
+            height: 20vh;
+        }
+    }
     h1 {
         color: #FFFFFF;
     }
